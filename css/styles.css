@@ -17,9 +17,42 @@ body {
     font-family: 'Roboto Slab', serif;
     margin: 0;
 }
+nav {
+    /* padding: 5px; */
+    background:#1A374D;
+    /* width: 100%; */
+    /* text-align: center; */
+}
+.contact-info a {
+    padding: 10px; 
+    display: inline-block;
+}
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none; }
+a:hover {
+    background-color: #B1D0E0;
+}
+.display {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    /* overflow: hidden; */
+}
+.display a {
+    padding: 10px;
+    display: inline-block;
+    width: 19.5%;
+    font-size: 16px;
+    /* border: 2px solid black; */
+}
+.display a:hover {
+    color:#1A374D;
+}
 h1 {
     font-family: 'Roboto Slab', serif;
-    color: black;
+    color: #1A374D;
     font-size: 2.8em;
     margin: 0;
 }
@@ -34,11 +67,16 @@ h2.student-name {
 
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 1.9em;
-    color: rgba(22, 22, 22, 0.986);  
+    color: #1A374D;  
+}
+h2 + p {
+  font-size: 13pt;
+  color: #1A374D;
 }
 h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 1.2em;
+    /*padding-left: 10%;*/
 }
 h4 {
     font-size: 1em;
@@ -52,10 +90,6 @@ h4 {
     margin: 0 auto;
     padding: 50px;
     overflow: hidden;
-}
-.contact-info a {
-    padding: 10px; 
-    display: inline-block;
 }
 .column-narrow {
     width: 30%; 
@@ -78,13 +112,11 @@ h4 {
 .alter-padding {
     padding-left: 10%;
 }
-.grey-text {
-
-    color: black;
-}
 .degrees {
     font-weight: bold;
     font-family: 'Golos Text', sans-serif;
+    font-size: 13pt;
+    margin-top: 23px;
 }
 /* Header  
 ------------------------------------*/
@@ -111,21 +143,25 @@ header {
 ------------------------------------*/
 #Education {
     
-    background: #6998AB;
+    /*background: #6998AB;*/
     font-family: 'Roboto Slab', serif;   
 }
+.image-bg {
+    background: url(https://cdn.glitch.global/ab65eb9f-21d3-4fbc-afd8-6fe6eac1d800/wLA.jpg?v=1678318001135) no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
+    background-attachment: fixed;
+}
+.alpha-bg {
+  background: rgba(236,236,236, 0.75);
+}
+
 /* Footer 
 ------------------------------------*/
 footer {
     /* background: #B1D0E0; */
     background:#406882;
-    font-family: 'Roboto Slab', serif;
-    text-align: center
+    font-family: 'Roboto Slab', serif; 
+    text-align: center;
 }
-a:link {
-    color: whitesmoke;
-    background-color: transparent;
-    text-decoration: none; }
-a:hover {
-    background-color: black;
-}
+

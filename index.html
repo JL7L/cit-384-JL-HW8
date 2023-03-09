@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name | Resume</title>
+    <title>Joshua Lavian | Resume</title>
     <!-- Roboto Slab (Medium 500) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,16 +19,39 @@
       rel="stylesheet"
     />
     <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!-- // Intro -->
     <header>
+      <nav class="display">
+        <a href="#About">About</a>
+        <a href="#Work">Coursework</a>
+        <a href="#Education">Education</a>
+        <a href="#Contact">Contact</a>
+        <a
+          href="https://cdn.glitch.global/ab65eb9f-21d3-4fbc-afd8-6fe6eac1d800/JoshuaLavian%20Resume.pdf?v=1678321264626"
+          download="Resume.pdf"
+          >PDF Download</a
+        >
+      </nav>
       <div class="content-wrap">
         <div class="column-narrow">
-          <img class="profile-img" src="images\pic.jpg" alt="Joshua Lavian" />
+          <img
+            class="profile-img"
+            src="https://cdn.glitch.global/ab65eb9f-21d3-4fbc-afd8-6fe6eac1d800/pic.jpg?v=1678306184939"
+            alt="Joshua Lavian"
+          />
         </div>
         <div class="column-wide">
-          <h1>Joshua Lavian</h1>
+          <h1 id="About">Joshua Lavian</h1>
           <h2 class="student-name">Student</h2>
           <p>
             As an Information Technology student, I have developed a strong
@@ -164,7 +187,7 @@
           </ul>
         </div>
         <div class="column-narrow">
-          <h3 class="alter">Proficiencies</h3>
+          <h3>Proficiencies</h3>
         </div>
         <div class="column-wide">
           <h4>Security</h4>
@@ -209,52 +232,59 @@
           </ul>
         </div>
       </div>
-      <!-- end of section -->
     </section>
+    <!-- end of section -->
 
     <main>
       <!-- // Education -->
-      <section id="Education">
-        <div class="content-wrap">
-          <h2>Education</h2>
-          <div class="column-narrow">
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>West Los Angeles College <br />2019-2021</h3>
-          </div>
-          <div class="column-wider">
-            <p class="degrees">
-              Associate of Arts in Math, Science, and Computer Science
-            </p>
-            <p class="degrees">
-              Associate of Arts in Behavioral and Social Sciences
-            </p>
-          </div>
-          <!-- School details: copy this whole block to add more schools. -->
-          <div class="column-narrow">
-            <h3>California State University, Northridge 2021-2024</h3>
-          </div>
-          <div class="column-wider">
-            <p class="degrees">
-              Bachelor of Science in Computer Information Technology
-            </p>
-            <p class="degrees">Minor in English Literature</p>
-          </div>
-          <!-- Add as many paragraphs as you need. -->
-          <!-- End of school details. -->
+      <div class="image-bg">
+        <div class="alpha-bg">
+          <section id="Education">
+            <div class="content-wrap">
+              <h2>Education</h2>
+              <div class="column-narrow">
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>West Los Angeles College <br />2019-2021</h3>
+              </div>
+              <div class="column-wider">
+                <p class="degrees">
+                  Associate of Arts in Math, Science, and Computer Science
+                </p>
+                <p class="degrees">
+                  Associate of Arts in Behavioral and Social Sciences
+                </p>
+              </div>
+              <!-- School details: copy this whole block to add more schools. -->
+              <div class="column-narrow">
+                <h3>California State University, Northridge 2021-2024</h3>
+              </div>
+              <div class="column-wider">
+                <p class="degrees">
+                  Bachelor of Science in Computer Information Technology
+                </p>
+                <p class="degrees">Minor in English Literature</p>
+              </div>
+            </div>
+            <!-- Add as many paragraphs as you need. -->
+            <!-- End of school details. -->
+          </section>
         </div>
-      </section>
+      </div>
     </main>
 
     <!-- // Footer & contact info -->
     <footer>
       <div class="content-wrap">
-        <h4 class="grey-text">Let's Keep in Touch!</h4>
+        <h4 id="Contact">Let's Keep in Touch!</h4>
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <div class="contact-info">
-          <a href="mailto:email@example.com">Email</a>
-          <a href="#" target="_blank">GitHub</a>
-          <a href="#" target="_blank">LinkedIn</a>
+          <a href="mailto:joshua.lavian.881@my.csun.edu"
+            ><i class="fa fa-envelope"></i
+          ></a>
+          <a href="https://github.com/JL7L" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
         </div>
 
         <p id="copyright">Copyright 2023 by Joshua Lavian</p>
