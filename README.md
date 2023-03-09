@@ -1,6 +1,6 @@
 # My resume website
 
-Here is a link to my website: https://jl7l.github.io/cit-384-jl-hw7/
+Here is a link to my website: https://github.com/JL7L/cit-384-JL-HW8.git
 
 ## ← index.html
 
